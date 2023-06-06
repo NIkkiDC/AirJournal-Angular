@@ -7,6 +7,7 @@ import { CityComponent } from './city/city.component';
 import { SeecityComponent } from './seecity/seecity.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
+import { HpImgComponent } from './hp-img/hp-img.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HomeComponent } from './home/home.component';
     CityComponent,
     SeecityComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    HpImgComponent
   ],
   imports: [
     BrowserModule,
