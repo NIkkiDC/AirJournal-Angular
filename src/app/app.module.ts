@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { HpImgComponent } from './hp-img/hp-img.component';
 import { HpInfoComponent } from './hp-info/hp-info.component';
+import { PActivitiesComponent } from './p-activities/p-activities.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HpInfoComponent } from './hp-info/hp-info.component';
     HeaderComponent,
     HomeComponent,
     HpImgComponent,
-    HpInfoComponent
+    HpInfoComponent,
+    PActivitiesComponent
   ],
   imports: [
     BrowserModule,
