@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./hp-img.component.css']
 })
 export class HpImgComponent {
-
 }
+
+
