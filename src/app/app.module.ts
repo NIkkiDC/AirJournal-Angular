@@ -12,6 +12,7 @@ import { HpInfoComponent } from './hp-info/hp-info.component';
 import { PActivitiesComponent } from './p-activities/p-activities.component';
 import { ShowActiComponent } from './show-acti/show-acti.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FaqsComponent } from './faqs/faqs.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     HpImgComponent,
     HpInfoComponent,
     PActivitiesComponent,
-    ShowActiComponent
+    ShowActiComponent,
+    FaqsComponent
   ],
   imports: [
     BrowserModule,
