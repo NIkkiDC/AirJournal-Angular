@@ -19,7 +19,7 @@ margin-top: 20%;
 /* This is for the second H2 */
 .infohome1 {
 font-family:'Courier New', Courier, monospace;
-color:#085948;
+color:#05cbfb;
 font-weight: bold;
 }
 
@@ -27,5 +27,5 @@ font-weight: bold;
 
 .phome {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #1c5447
+    color:#05cbfb;
 }
