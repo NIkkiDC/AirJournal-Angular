@@ -15,3 +15,10 @@ color: #05cbfb;
 font-weight: bold;
 margin-top: 20%;
 }
+
+/* This is for the second H2 */
+.infohome1 {
+font-family:'Courier New', Courier, monospace;
+color:#085948;
+font-weight: bold;
+}
