@@ -1,10 +1,14 @@
 import { Component } from '@angular/core';
+import { CityComponent } from '../city/city.component';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent {
+  keyword: string = '';
+  arrayOfActivities: any[] = [];
+  // city = city;
 
 }
