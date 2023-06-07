@@ -7,3 +7,10 @@
     --heading-font-family: "Playfair Display", serif;
     --default-font-family: "poppins", sans-serif;
   }
+
+  .infohome {
+font-family:'Courier New', Courier, monospace;
+color: #05cbfb;
+font-weight: bold;
+margin-top: 20%;
+}
