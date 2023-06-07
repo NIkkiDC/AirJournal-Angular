@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { DataService } from '../data.service';
 import { CityComponent } from '../city/city.component';
 
 @Component({
@@ -11,5 +12,7 @@ export class HeaderComponent {
   keyword: string = '';
   arrayOfActivities: any[] = [];
   // city = city;
+
+  constructor(private route: Router, private dataService: DataService) {}
 
 }
