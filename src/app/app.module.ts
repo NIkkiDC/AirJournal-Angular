@@ -11,6 +11,7 @@ import { HpImgComponent } from './hp-img/hp-img.component';
 import { HpInfoComponent } from './hp-info/hp-info.component';
 import { PActivitiesComponent } from './p-activities/p-activities.component';
 import { ShowActiComponent } from './show-acti/show-acti.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ShowActiComponent } from './show-acti/show-acti.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
