@@ -22,3 +22,10 @@ font-family:'Courier New', Courier, monospace;
 color:#085948;
 font-weight: bold;
 }
+
+/* This is for the p tags  */
+
+.phome {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #1c5447
+}
