@@ -14,6 +14,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
       color:#d2fdff;
        width: 500px;
     height: 200px;
+    ;
 }
 
 .postcard {
@@ -26,4 +27,9 @@ img {
 
 body {
     background-color: #FFFFE0;
+     border: solid 1px  #FFFFE0;
+}
+
+.mb {
+    margin-top: 20px;
 }
