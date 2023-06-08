@@ -19,7 +19,8 @@
 
   .container {
     background-color: #293056;
-    box-shadow: 10px 10px 5px lightblue;
-    border:  2px solid lightblue;
+    box-shadow: 10px 10px 5px #a5acbc;
+    border:  2px solid #a5acbc;
+    border-radius: 10px;
 
   }
