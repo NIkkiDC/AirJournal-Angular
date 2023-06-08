@@ -13,6 +13,7 @@ export class PActivitiesComponent implements OnInit {
   count: any = 5;
   cityId: number = 1;
   activities!: any;
+  city: any;
 
 
   constructor(
@@ -26,6 +27,14 @@ ngOnInit(): void {
       console.log(response)
       this.activities = response; // holding the data // needs to be binded to the HTML file
     });
+
+  
+    this.http
+      .get(`http://localhost:8080/api/city`)
+      .subscribe((response) => {
+        console.log(response);
+        this.city = response; // holding the data // needs to be binded to the HTML file
+      });
 
 }
     
