@@ -6,11 +6,7 @@
 }
 
 body {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #efefef;
+  height: 1900px;
 }
 
 .card {
@@ -75,4 +71,30 @@ body {
 }
 
 
+.name-job{
+  background-color:#d3fbfb;
+  color: #293056;
+  border-radius: 1%;
+}
+
+.profile-details {
+  color:#293056;
+  background-color:  #d3fbfb;
+  border-radius:  #293056;
+}
+
+.image-box {
+  border: 1px solid #FFFFE0;
+}
+
+
+:root {
+    --branding-color: #d3fbfb;
+    --secondary-color: #293056;
+    --text-color: #05cbfb;
+    --hover-color: #8099ad;
+    --clicked-color: #a5acbc;
+    --heading-font-family: "Playfair Display", serif;
+    --default-font-family: "poppins", sans-serif;
+  }
 

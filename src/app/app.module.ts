@@ -8,13 +8,13 @@ import { SeecityComponent } from './seecity/seecity.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { HpImgComponent } from './hp-img/hp-img.component';
-import { HpInfoComponent } from './hp-info/hp-info.component';
 import { PActivitiesComponent } from './p-activities/p-activities.component';
 import { ShowActiComponent } from './show-acti/show-acti.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FaqsComponent } from './faqs/faqs.component';
 import { HttpClientModule } from '@angular/common/http';
-import { FooterComponent } from './footer/footer.component';
+
+
 
 
 @NgModule({
@@ -25,11 +25,9 @@ import { FooterComponent } from './footer/footer.component';
     HeaderComponent,
     HomeComponent,
     HpImgComponent,
-    HpInfoComponent,
     PActivitiesComponent,
     ShowActiComponent,
     FaqsComponent,
-    FooterComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule, HttpClientModule],
   providers: [],
