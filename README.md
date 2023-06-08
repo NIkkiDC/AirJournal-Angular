@@ -69,7 +69,8 @@ User should see ads on the home page / or travel tips.
 
 ## 📰Wireframes
 
-![Wireframe of Wayfarer App](./src/assets/images/wireframes.png)
+<img width="1011" alt="Screenshot 2023-06-08 at 1 58 56 AM" src="https://github.com/NIkkiDC/AirJournal-Angular/assets/97572760/e2459f95-8248-403d-a1fe-a1e5695c2289">
+
 
 ## 🤦🏿‍♀️Hurdles
 
