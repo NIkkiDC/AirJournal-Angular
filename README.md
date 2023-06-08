@@ -46,12 +46,12 @@ No more expensive travel agents to find your excursions! You don’t have to do 
 
 By following an iterative development process, transforming user stories and design mockups into functional components, and utilizing responsive design through Bootstrap, I managed the project's development  effectively.
 
-## Approach
+## 💁🏿‍♀️Approach
 
 This project revolves around creating a travel site called AirJournal. I completed the majority of bracket 1 on Day 2, which involved wireframing, user stories, and establishing how many models I would use. I have also implemented a header that remains visible across all pages on angular. On Day 6, I finalized the information component on the Home page and started bracket 2 by displaying a list of citites and showing a list of activities associated with that city. On my last day I worked on both ReadMe's, as well as Did 16 straight hours of CSS.I encountered challenges related to getting my test to properly pass. I was determined! I used MockMvc again, even though I am not full comfortable with it. I am growing more comfortable each time I use it.However, by referring to my lesson notes and following the necessary steps, I successfully resolved these challenges.
 
 
-## User Stories
+## 📚User Stories
 
 User should see the NAVBAR from all pages of the site.
 
@@ -67,11 +67,11 @@ User should see ads on the home page / or travel tips.
 
 
 
-## Wireframes
+## 📰Wireframes
 
 ![Wireframe of Wayfarer App](./src/assets/images/wireframes.png)
 
-## Hurdles
+## 🤦🏿‍♀️Hurdles
 
 - Routing between the different pages - I had a hard time understanding how to set up the routing. Once I looked back through our lesson notes, I was able to create a router and path for each page
 
@@ -79,7 +79,7 @@ User should see ads on the home page / or travel tips.
 
 - Time management.  
 
-## Installation Instructions
+## 📑Installation Instructions
 
 1. Prerequisites: You will need Node.js and Node Package Manager installed on your local machine to be able to run this application. You can run the following command lines in your terminal to confirm you have them: 
    ```
@@ -106,7 +106,7 @@ If either one is not installed, you can download and install them from the [Node
      to automatically run and open on your browser. 
      
 
-## Credits
+## 🔖Credits
 - Wanda Avery assisted me every step of the way with this project. She helped me understand connecting my api with the front end. Wanda is also a great cheerleader as well! She was very helpful when making sure I stayed on track.
 - Rachel Ehrlich assisted me with the beautiful icons I have. Rachel, and Wanda always make me realize that I do have an understanding of what I am doing, and do hold the answer in my head! I just need to be confident, and pratice more.
 - DeShe Woods helped me fix an error I was having with linking my API to my Angular application. 
