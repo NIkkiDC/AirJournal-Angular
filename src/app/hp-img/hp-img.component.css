@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 body {
   min-height: 100vh;
   display: flex;
@@ -12,7 +13,6 @@ body {
   justify-content: center;
   background: #efefef;
 }
-
 
 .card {
   background: white;
@@ -56,6 +56,16 @@ width:100%;
   .swiper-navBtn {
     display: none;
   }
+}
+
+.left {
+  position: absolute;
+  right: 0;
+}
+
+.rleft {
+  position: absolute;
+  left: -10;
 }
 
 
