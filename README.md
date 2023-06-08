@@ -64,3 +64,50 @@ User should have access to all activities.
 
 User should see ads on the home page / or travel tips.
 
+
+
+## Wireframes
+
+![Wireframe of Wayfarer App](./src/assets/images/wireframes.png)
+
+## Hurdles
+
+- Routing between the different pages - I had a hard time understanding how to set up the routing. Once I looked back through our lesson notes, I was able to create a router and path for each page
+
+- Nesting Routes within the Cities Component 
+
+- Time management.  
+
+## Installation Instructions
+
+1. Prerequisites: You will need Node.js and Node Package Manager installed on your local machine to be able to run this application. You can run the following command lines in your terminal to confirm you have them: 
+   ```
+   node—version
+	 npm –version
+   ```
+If either one is not installed, you can download and install them from the [Node.js website](https://nodejs.org/en) and view their official documentation [here](https://nodejs.org/en/docs) 
+
+2.	Download The application: 
+  - [GitHub]https://github.com/NIkkiDC/AirJournal-Angular
+  - Make sure you extract the zip file! 
+  - Then in your terminal navigate to the downloaded directory. 
+  
+3. Once in the folder directory in your terminal, you will need to install node modules. You can do that with the following command: 
+    ```
+    npm install
+    ```
+4. Before running the application, you will need to build the application by running the following command:
+    ``` 
+    ng build
+    ```
+5. Then run the following command to start your server: 
+    ``` ng serve, or ng serve –open``` 
+     to automatically run and open on your browser. 
+     
+
+## Credits
+- Wanda Avery assisted me every step of the way with this project. She helped me understand connecting my api with the front end. Wanda is also a great cheerleader as well! She was very helpful when making sure I stayed on track.
+- Rachel Ehrlich assisted me with the beautiful icons I have. Rachel, and Wanda always make me realize that I do have an understanding of what I am doing, and do hold the answer in my head! I just need to be confident, and pratice more.
+- DeShe Woods helped me fix an error I was having with linking my API to my Angular application. 
+- Dhrubo for making sure I was doing well with my time.
+
