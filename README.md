@@ -2,7 +2,7 @@
 # AirJournal 
 
 
-## Table Of Contents
+## 📝Table Of Contents
 - [Project Description](#description)
 - [Tools & Technoilogies](#technology-stack)
 - [Project Aproach](#approach)
