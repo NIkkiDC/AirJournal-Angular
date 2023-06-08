@@ -1,4 +1,5 @@
-# AirJournal
+![fulllogo_nobuffer](https://github.com/NIkkiDC/AirJournal-Angular/assets/97572760/6e117e26-a1bb-435f-afbc-e777931e3691)
+# AirJournal 
 
 
 ## Table Of Contents
