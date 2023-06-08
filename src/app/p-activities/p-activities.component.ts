@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 export class PActivitiesComponent implements OnInit {
   
   
-  
+  count: any = 5;
   cityId: number = 1;
   activities!: any;
 

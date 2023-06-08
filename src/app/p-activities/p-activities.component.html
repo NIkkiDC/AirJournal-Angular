@@ -1,11 +1,21 @@
 
 <!-- this is the single page of a post on just one page BELOW -->
-<div class="container" *ngFor="let data of activities">
-    <div class="postcard" *ngFor="let data of activities">
-        <div class="post-image">  </div>
+<div class="container">
+    <div class="postcard">
+        <div class="post-image"><img src="../../assets/imgs/mombasaCamel.png" width="100"> </div>
         <div class="card-body post">
-              <h5 class="name">{{data.name}}</h5> 
-                <p class="desc">{{data.description}}</p>
+              <h5 class="name">{{activities[0].name}}</h5> 
+                <p class="desc">{{activities[0].description}}</p>
+        </div>
+    </div> 
+</div>
+
+<div class="container">
+    <div class="postcard">
+        <!-- <div class="post-image">  </div> -->
+        <div class="card-body post">
+              <h5 class="name">{{activities[1].name}}</h5> 
+                <p class="desc">{{activities[1].description}}</p>
         </div>
     </div> 
 </div>
