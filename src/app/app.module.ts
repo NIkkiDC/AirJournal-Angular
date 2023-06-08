@@ -14,6 +14,7 @@ import { ShowActiComponent } from './show-acti/show-acti.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FaqsComponent } from './faqs/faqs.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { HttpClientModule } from '@angular/common/http';
     PActivitiesComponent,
     ShowActiComponent,
     FaqsComponent,
+    FooterComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule, HttpClientModule],
   providers: [],
