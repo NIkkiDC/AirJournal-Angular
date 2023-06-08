@@ -13,6 +13,8 @@ import { PActivitiesComponent } from './p-activities/p-activities.component';
 import { ShowActiComponent } from './show-acti/show-acti.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FaqsComponent } from './faqs/faqs.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -25,14 +27,10 @@ import { FaqsComponent } from './faqs/faqs.component';
     HpInfoComponent,
     PActivitiesComponent,
     ShowActiComponent,
-    FaqsComponent
+    FaqsComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NgbModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, NgbModule, HttpClientModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
