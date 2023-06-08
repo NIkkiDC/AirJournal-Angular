@@ -9,28 +9,21 @@ import { PActivitiesComponent } from '../p-activities/p-activities.component';
   styleUrls: ['./city.component.css'],
 })
 export class CityComponent implements OnInit {
-  // cityId: number;
-  // activities: any[];
+  cityId: number = 1;
+  activities!: any;
 
 
   constructor(
-    private route:ActivatedRoute,
     private http: HttpClient) { }
-  
+
 
 ngOnInit(): void {
-    this.route.paramMap.subscribe(params => {
-      // this.cityId = parseInt(params.get('id') || '') ;
-      this.loadActivities();
-    });
-  }
 
-  loadActivities(): void {
-    this.http.get<any[]>(`http://localhost:8080/api/cities/${this.cityId}/activities`);
-        //   .subscribe(activities => { 
-        // this.activities = activities;
-        //       }, error => {
-      //   console.error('Failed to load activities:', error);
-      // });
-  }
+    this.http.get(`http://localhost:8080/api/activities/cityId`)
+    .subscribe((response)=>{
+      console.log(response)
+      this.activities = response; // holding the data // needs to be binded to the HTML file
+    });
+
+}
 }
