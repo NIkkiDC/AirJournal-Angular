@@ -9,12 +9,16 @@
   }
 
   .faqs {
-    background-color:#CDCDCD;
+    background-color:#d2fdff;
     color:#8099ad; ;
   }
 
   h5 {
-    color:#d2fdff
+    color:#d2fdff;
+  }
+
+  h3 {
+     font-size: medium;
   }
 
   .container {
@@ -22,5 +26,8 @@
     box-shadow: 10px 10px 5px #a5acbc;
     border:  2px solid #a5acbc;
     border-radius: 10px;
+  }
 
+  .hand {
+    border-radius: 10px;
   }
