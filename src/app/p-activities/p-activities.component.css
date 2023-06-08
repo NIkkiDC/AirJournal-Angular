@@ -12,4 +12,14 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     border:  2px solid #a5acbc;
     border-radius: 10px;
       color:#d2fdff;
+       width: 400px;
+    height: 200px;
+}
+
+.postcard {
+
+}
+
+img {
+    border-radius: 10%;
 }
