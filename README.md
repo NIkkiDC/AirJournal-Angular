@@ -2,7 +2,7 @@
 # AirJournal 
 
 
-## 📝Table Of Contents
+## 🧾Table Of Contents
 - [Project Description](#description)
 - [Tools & Technoilogies](#technology-stack)
 - [Project Aproach](#approach)
@@ -11,7 +11,7 @@
 - [Installation Instructions](#installation-instructions)
 - [Credits](#credits)
 
-## Description
+## 📇Description
 
 No more expensive travel agents to find your excursions! You don’t have to do any hard planning anymore the trip is planned for you. Here at Air Journal we believe all travelers should kick back and enjoy what the world has to offer! We live in a world where everyone wants everything right away, and accurate. It’s a beautiful thing you’re here at Air Journal where we do just that. All of your excursions in one place planned out for you. Our founder Dominique spent months and months of diligent research to create the perfect trip for herself. She would make sure she had Her excursions planned out in advance. Sometimes you often end up missing out of fun activities because you were not aware of what that city had to offer. All the hard work is done here for you!  
 
