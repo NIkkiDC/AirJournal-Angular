@@ -1,3 +1,10 @@
 .navbar {
     background-color: #d2fdff;
 }
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}

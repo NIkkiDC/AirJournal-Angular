@@ -1,25 +1,13 @@
-<!-- 
-<div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="../../assets/imgs/GrandBaieMauritius.png" width="1100px" height="400px" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-city">Mombasa, Kenya 🇰🇪 </h5>
-        <p class="card-activity">Riding camels on the beach, beautiful views</p>
-      </div>
-    </div>
-  </div>
-</div> -->
 
 <!-- this is the single page of a post on just one page BELOW -->
+<div class="container" *ngFor="let data of activities">
     <div class="postcard" *ngFor="let data of activities">
         <div class="post-image">  </div>
         <div class="card-body post">
-              <h5 class="card-title">{{data.name}}</h5> 
-                <p class="card-text">{{data.description}}</p>
+              <h5 class="name">{{data.name}}</h5> 
+                <p class="desc">{{data.description}}</p>
         </div>
     </div> 
+</div>
 
 <router-outlet></router-outlet>

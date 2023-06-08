@@ -7,3 +7,15 @@
     --heading-font-family: "Playfair Display", serif;
     --default-font-family: "poppins", sans-serif;
   }
+
+  footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+
+social-links {
+    background-color: #05cbfb;
+    color: #8099ad;
+}
