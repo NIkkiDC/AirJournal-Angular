@@ -9,7 +9,7 @@
   }
 
   .faqs {
-    background-color:#d2fdff;
+    background-color:#F1F1F1;
     color:#8099ad; ;
   }
 
@@ -34,4 +34,12 @@
 
   h1 {
     text-align: center;
+  }
+
+    .foot {
+    background-color: #d3fbfb ;
+    height: 40px;
+    text-align: center;
+    color:#293056;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }

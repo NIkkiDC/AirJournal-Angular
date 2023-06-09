@@ -14,6 +14,7 @@ body {
   background: white;
   border-radius: 8px;
   width: 500px;
+  box-shadow: 10px 10px 5px #a5acbc;
 }
 .card .image-box {
   height: 200px;
@@ -99,10 +100,19 @@ body {
     --default-font-family: "poppins", sans-serif;
   }
 
+  .card-title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .card-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
   .foot {
     background-color: #d3fbfb ;
     height: 40px;
     text-align: center;
-    color:#293056
+    color:#293056;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
