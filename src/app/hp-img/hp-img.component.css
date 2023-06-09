@@ -6,7 +6,8 @@
 }
 
 body {
-  height: 1900px;
+  height: 1700px;
+  background-color: #F1F1F1;
 }
 
 .card {
@@ -84,7 +85,7 @@ body {
 }
 
 .image-box {
-  border: 1px solid #FFFFE0;
+  border: 1px solid #F1F1F1;
 }
 
 
@@ -96,5 +97,12 @@ body {
     --clicked-color: #a5acbc;
     --heading-font-family: "Playfair Display", serif;
     --default-font-family: "poppins", sans-serif;
+  }
+
+  .foot {
+    background-color: #d3fbfb ;
+    height: 40px;
+    text-align: center;
+    color:#293056
   }
 
