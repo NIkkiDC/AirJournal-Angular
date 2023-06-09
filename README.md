@@ -74,8 +74,7 @@ User should see ads on the home page / or travel tips.
 - Routing between the different pages - I had a hard time understanding how to set up the routing. Once I looked back through our lesson notes, I was able to create a router and path for each page
 
 - Nesting Routes within the Cities Component 
-
-- Time management.  
+ 
 
 ## 📑Installation Instructions
 
