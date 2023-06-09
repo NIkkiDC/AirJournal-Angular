@@ -68,12 +68,6 @@ User should see ads on the home page / or travel tips.
 
 <img width="1011" alt="Screenshot 2023-06-08 at 1 58 56 AM" src="https://github.com/NIkkiDC/AirJournal-Angular/assets/97572760/e2459f95-8248-403d-a1fe-a1e5695c2289">
 
-
-## 🤦🏿‍♀️Hurdles
-
-- Routing between the different pages - I had a hard time understanding how to set up the routing. Once I looked back through our lesson notes, I was able to create a router and path for each page
-
-- Nesting Routes within the Cities Component 
  
 
 ## 📑Installation Instructions
@@ -102,6 +96,13 @@ If either one is not installed, you can download and install them from the [Node
     ``` ng serve, or ng serve –open``` 
      to automatically run and open on your browser. 
      
+     
+## 🤦🏿‍♀️Hurdles
+
+- Routing between the different pages - I had a hard time understanding how to set up the routing. Once I looked back through our lesson notes, I was able to create a router and path for each page
+
+- Nesting Routes within the Cities Component 
+
 
 ## 🔖Credits
 - Wanda Avery assisted me every step of the way with this project. She helped me understand connecting my api with the front end. Wanda is also a great cheerleader as well! She was very helpful when making sure I stayed on track.
