@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 1700px;
+  background-color: #F1F1F1;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  width: 500px;
+  box-shadow: 10px 10px 5px #a5acbc;
+}
+.card .image-box {
+  height: 200px;
+  width: 500px;
+  display: flex;
+  align-self: center;
+}
+.card .image-box img {
+  width: 100%;
+}
+.card .profile-details {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  padding: 15px;
+}
+.card .profile-details img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.profile-details .name {
+  font-size: 15px;
+  font-weight: 500;
+}
+.profile-details .city {
+  font-size: 12px;
+  font-weight: 500;
+  color: #4d4d4d;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-navBtn {
+    display: none;
+  }
+}
+
+.left {
+  position: absolute;
+  right: 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 80px;
+}
+
+.rleft {
+  position: absolute;
+  left: -10;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  margin-left: 80px;
+}
+
+.space {
+    margin-bottom: 60px;
+}
+
+
+.name-job{
+  background-color:#d3fbfb;
+  color: #293056;
+  border-radius: 1%;
+}
+
+.profile-details {
+  color:#293056;
+  background-color:  #d3fbfb;
+  border-radius:  #293056;
+}
+
+.image-box {
+  border: 1px solid #F1F1F1;
+}
+
+
+:root {
+    --branding-color: #d3fbfb;
+    --secondary-color: #293056;
+    --text-color: #05cbfb;
+    --hover-color: #8099ad;
+    --clicked-color: #a5acbc;
+    --heading-font-family: "Playfair Display", serif;
+    --default-font-family: "poppins", sans-serif;
+  }
+
+  .card-title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .card-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .foot {
+    background-color: #d3fbfb ;
+    height: 40px;
+    text-align: center;
+    color:#293056;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+

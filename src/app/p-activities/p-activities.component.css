@@ -1,0 +1,56 @@
+.name {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.desc {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background-color: #293056;
+    box-shadow: 10px 10px 5px #a5acbc;
+    border:  2px solid #a5acbc;
+    border-radius: 10px;
+    color:#d2fdff;
+    width: 500px;
+    height: 200px;
+    margin: 10px;
+}
+
+
+img {
+    border-radius: 10%;
+}
+
+body {
+   color: #FFFFE0;
+     border: solid 1px  #FFFFE0;
+}
+
+
+.city {
+  position: absolute;
+  left: -10;
+  margin-left: 80px;
+  margin-top: 5px;;
+}
+
+.activities {
+position: absolute;
+  right: 0;
+  margin-right: 80px;
+  margin-top: 29px;;
+}
+
+mb {
+  margin: 90px;
+}
+
+    .foot {
+    background-color: #d3fbfb ;
+    height: 40px;
+    text-align: center;
+    color:#293056;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
