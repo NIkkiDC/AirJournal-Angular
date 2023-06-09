@@ -46,3 +46,11 @@ mb {
   margin: 90px;
 }
 
+    .foot {
+    background-color: #d3fbfb ;
+    height: 40px;
+    text-align: center;
+    color:#293056;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
