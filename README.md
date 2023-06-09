@@ -46,9 +46,6 @@ No more expensive travel agents to find your excursions! You don’t have to do 
 
 By following an iterative development process, transforming user stories and design mockups into functional components, and utilizing responsive design through Bootstrap, I managed the project's development  effectively.
 
-## 💁🏿‍♀️Approach
-
-This project revolves around creating a travel site called AirJournal. I completed the majority of bracket 1 on Day 2, which involved wireframing, user stories, and establishing how many models I would use. I have also implemented a header that remains visible across all pages on angular. On Day 6, I finalized the information component on the Home page and started bracket 2 by displaying a list of citites and showing a list of activities associated with that city. On my last day I worked on both ReadMe's, as well as Did 16 straight hours of CSS.I encountered challenges related to getting my test to properly pass. I was determined! I used MockMvc again, even though I am not full comfortable with it. I am growing more comfortable each time I use it.However, by referring to my lesson notes and following the necessary steps, I successfully resolved these challenges.
 
 
 ## 📚User Stories
